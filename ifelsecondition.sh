@@ -10,3 +10,13 @@ echo "$b is biggerthan $a and $c"
 else
 echo "$c is biggerthan $a and $b"
 fi
+
+#!/bin/bash
+a=20
+b=30
+if[ $a -gt $b]
+then
+echo "$a is bigger than $b"
+else
+echo "$b is biggerthan $a"
+fi
